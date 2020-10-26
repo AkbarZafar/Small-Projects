@@ -49,11 +49,12 @@ class Main {
     private void set_piece(){
         Scanner input =new Scanner(System.in);
         
+        System.out.println("Enter the row");
         int i = input.nextInt();
+        System.out.println("Enter the column");
         int j = input.nextInt();
 
         board[i][j] = current_player;
-
 
     }
 
